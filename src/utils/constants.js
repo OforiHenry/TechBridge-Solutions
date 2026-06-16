@@ -203,7 +203,7 @@ export const socialLinks = [
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/233599339231',
+    href: 'https://wa.me/233506931328',
     color: '#25D366',
     iconName: 'whatsapp',
   },
@@ -213,7 +213,7 @@ export const socialLinks = [
 export const contactInfo = {
   email: 'hello@techbridgesolutions.com',
   phone: '+233 59 933 9231',
-  whatsapp: 'https://wa.me/233599339231',
+  whatsapp: 'https://wa.me/233506931328',
   location: 'Accra, Ghana',
 };
 
