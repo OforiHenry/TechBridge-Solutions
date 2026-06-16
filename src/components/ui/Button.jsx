@@ -1,4 +1,7 @@
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
+
+const MotionLink = motion(Link);
 
 export default function Button({
   children,
@@ -70,15 +73,34 @@ export default function Button({
   );
 
   if (href) {
+    const isExternalLink =
+      /^https?:\/\//i.test(href) ||
+      href.startsWith('mailto:') ||
+      href.startsWith('tel:') ||
+      href.startsWith('#');
+
+    if (isExternalLink) {
+      return (
+        <motion.a
+          href={href}
+          className={classes}
+          {...motionProps}
+          {...props}
+        >
+          {content}
+        </motion.a>
+      );
+    }
+
     return (
-      <motion.a
-        href={href}
+      <MotionLink
+        to={href}
         className={classes}
         {...motionProps}
         {...props}
       >
         {content}
-      </motion.a>
+      </MotionLink>
     );
   }
 
