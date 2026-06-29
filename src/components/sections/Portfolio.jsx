@@ -14,9 +14,9 @@ export default function Portfolio() {
       : projects.filter((p) => p.category === activeFilter);
 
   return (
-    <section id="portfolio" className="section-padding relative">
+    <section id="portfolio" className="section-padding relative overflow-hidden">
       {/* Background accent */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-accent/3 blur-[150px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(100vw,600px)] h-[min(100vw,600px)] rounded-full bg-accent/3 blur-[150px] pointer-events-none" />
 
       <div className="section-container relative z-10">
         {/* Section Header */}

@@ -45,8 +45,8 @@ export default function About() {
   return (
     <section id="about" className="section-padding relative overflow-hidden">
       {/* Decorative shapes */}
-      <div className="absolute top-20 -right-20 w-64 h-64 rounded-full bg-accent/3 blur-[100px]" />
-      <div className="absolute bottom-20 -left-20 w-48 h-48 rounded-full bg-accent-alt/3 blur-[80px]" />
+      <div className="absolute top-20 -right-20 w-48 h-48 sm:w-64 sm:h-64 rounded-full bg-accent/3 blur-[100px]" />
+      <div className="absolute bottom-20 -left-20 w-32 h-32 sm:w-48 sm:h-48 rounded-full bg-accent-alt/3 blur-[80px]" />
 
       <div className="section-container relative z-10">
         {/* Section Header */}

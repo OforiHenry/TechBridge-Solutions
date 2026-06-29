@@ -57,7 +57,7 @@ export default function Testimonials() {
 
         {/* Carousel */}
         <div className="max-w-3xl mx-auto relative">
-          <div className="overflow-hidden rounded-2xl min-h-[320px] flex items-center">
+          <div className="overflow-hidden rounded-2xl min-h-[280px] md:min-h-[320px] flex items-center">
             <AnimatePresence mode="wait" custom={direction}>
               <motion.div
                 key={current}

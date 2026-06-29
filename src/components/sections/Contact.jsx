@@ -7,7 +7,7 @@ export default function Contact() {
     <section className="section-padding relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-primary to-accent-alt/5" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-accent/5 blur-[150px]" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(100vw,500px)] h-[min(100vw,500px)] rounded-full bg-accent/5 blur-[150px]" />
 
       {/* Noise texture overlay */}
       <div className="absolute inset-0 opacity-[0.02]" style={{

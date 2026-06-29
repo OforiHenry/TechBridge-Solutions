@@ -17,7 +17,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
-      <div className="min-h-screen bg-primary text-text-main">
+      <div className="min-h-screen w-full overflow-x-hidden bg-primary text-text-main">
         <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />

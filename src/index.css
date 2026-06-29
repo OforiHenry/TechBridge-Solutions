@@ -14,6 +14,7 @@
     scroll-behavior: smooth;
     scroll-padding-top: 5rem;
     min-width: 0;
+    max-width: 100vw;
   }
 
   body {
@@ -24,9 +25,18 @@
     -moz-osx-font-smoothing: grayscale;
     overflow-x: hidden;
     min-width: 0;
+    max-width: 100vw;
   }
 
   #root {
+    min-width: 0;
+    width: 100%;
+  }
+
+  main,
+  section,
+  header,
+  footer {
     min-width: 0;
     width: 100%;
   }
@@ -131,11 +141,11 @@
 
 /* ===== Section Styling ===== */
 .section-padding {
-  @apply py-20 md:py-28 px-4 sm:px-6 lg:px-8;
+  @apply w-full py-20 md:py-28 px-4 sm:px-6 lg:px-8;
 }
 
 .section-container {
-  @apply max-w-7xl mx-auto;
+  @apply w-full max-w-7xl mx-auto;
 }
 
 /* ===== Gradient Text ===== */

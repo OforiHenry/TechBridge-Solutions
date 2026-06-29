@@ -83,8 +83,8 @@ export default function ContactPage() {
       <section className="relative py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0 bg-hero-mesh" />
         <div className="absolute inset-0">
-          <div className="absolute top-1/4 left-1/4 w-72 h-72 rounded-full bg-accent/5 blur-[100px] animate-float" />
-          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 rounded-full bg-accent-alt/5 blur-[120px] animate-float-delayed" />
+          <div className="absolute top-1/4 left-1/4 w-[min(100vw,280px)] h-[min(100vw,280px)] sm:w-72 sm:h-72 rounded-full bg-accent/5 blur-[100px] animate-float" />
+          <div className="absolute bottom-1/4 right-1/4 w-[min(100vw,360px)] h-[min(100vw,360px)] sm:w-96 sm:h-96 rounded-full bg-accent-alt/5 blur-[120px] animate-float-delayed" />
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">

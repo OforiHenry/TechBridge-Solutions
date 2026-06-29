@@ -15,9 +15,9 @@ export default function Hero() {
 
       {/* Animated orbs */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-1/4 left-1/5 w-72 h-72 rounded-full bg-accent/5 blur-[100px] animate-float" />
-        <div className="absolute bottom-1/3 right-1/4 w-96 h-96 rounded-full bg-accent-alt/5 blur-[120px] animate-float-delayed" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-accent/3 blur-[150px]" />
+        <div className="absolute top-1/4 left-1/5 w-40 h-40 sm:w-72 sm:h-72 rounded-full bg-accent/5 blur-[100px] animate-float" />
+        <div className="absolute bottom-1/3 right-1/4 w-56 h-56 sm:w-96 sm:h-96 rounded-full bg-accent-alt/5 blur-[120px] animate-float-delayed" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[min(100vw,420px)] sm:w-[500px] h-[min(100vw,420px)] sm:h-[500px] rounded-full bg-accent/3 blur-[150px]" />
       </div>
 
       {/* Grid pattern overlay */}
