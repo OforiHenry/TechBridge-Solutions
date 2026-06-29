@@ -58,7 +58,7 @@ export default function About() {
             className="inline-block text-accent font-mono text-sm tracking-widest uppercase mb-4"
           >
             About Us
-            POland 
+            
           </motion.span>
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
