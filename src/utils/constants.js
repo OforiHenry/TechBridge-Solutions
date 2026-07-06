@@ -212,7 +212,7 @@ export const socialLinks = [
 /* ===== Contact Info ===== */
 export const contactInfo = {
   email: 'hello@techbridgesolutions.com',
-  phone: '+233 59 933 9231',
+  phone: '+233 50 693 1328',
   whatsapp: 'https://wa.me/233506931328',
   location: 'Accra, Ghana',
 };

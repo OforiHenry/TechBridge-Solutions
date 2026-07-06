@@ -37,10 +37,21 @@ export default function ContactPage() {
 
     if (Object.keys(newErrors).length === 0) {
       setLoading(true);
-      // Simulate form submission
-      await new Promise((resolve) => setTimeout(resolve, 2000));
-      setLoading(false);
-      setSubmitted(true);
+      try {
+        const response = await fetch('https://script.google.com/macros/s/AKfycbyxGPcFhBEblHxyF4JVSlMEPlXnjRGXyf1bXsbJQtQPiIMFtYL-jYh8BwRXoO0tSfM/exec', {
+          method: 'POST',
+          body: JSON.stringify(formData),
+        });
+        
+        if (response.ok) {
+          setLoading(false);
+          setSubmitted(true);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        setLoading(false);
+        alert('Failed to send message. Please try again.');
+      }
     }
   };
 
