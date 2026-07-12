@@ -72,23 +72,27 @@ export const services = [
 export const projects = [
   {
     id: 1,
-    title: 'FreshBite Catering',
+    title: 'Rooted Harvest',
     service: 'Starter Website',
     category: 'Website',
     description:
-      'A clean five-page website that puts the menu, story, and contact details front and centre — with a contact form and Google Maps embed so customers can enquire and find the kitchen in seconds.',
-    techStack: ['5-Page Site', 'Contact Form', 'Google Maps'],
+      'A polished five-page farm-to-table website for a premium Aburi produce brand — showcasing seasonal harvests, farm-direct offerings, order and delivery options, and a contact form so customers across Accra can shop Ghanaian staples from the Eastern Region.',
+    techStack: ['5-Page Site', 'Seasonal Menu', 'Contact Form'],
     color: '#00D4FF',
+    coverImage: '/portfolio/rooted-harvest-cover.png',
+    url: 'https://rooted-harvest.lovable.app/',
   },
   {
     id: 2,
-    title: 'Elite Properties Ghana',
+    title: 'ConstruMKTG',
     service: 'Business Website',
     category: 'Website',
     description:
-      'A full business website with property listings, image galleries, and a WhatsApp chat button — plus foundational SEO and social links to drive enquiries from serious buyers.',
+      'A full business website for a premium construction and civil engineering firm in Accra — with project showcases, service pages, WhatsApp enquiries, and foundational SEO to help the team win serious commercial and residential contracts.',
     techStack: ['10+ Pages', 'WhatsApp Chat', 'SEO Setup'],
     color: '#7B61FF',
+    coverImage: '/portfolio/construmktg-cover.png',
+    url: 'https://construmktg-q8cup7lg.manus.space',
   },
   {
     id: 3,
